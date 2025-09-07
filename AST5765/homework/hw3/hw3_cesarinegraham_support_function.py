@@ -45,6 +45,9 @@ def square(x) :
            
     >>> square(3.7)
     13.690000000000001
+
+    >>> square(3 + 4j)
+    (-7+24j)
            
     Revisions
     ---------
@@ -52,10 +55,20 @@ def square(x) :
         from Webcourses, renamed it "hw3_cesaringraham_support_function.py".
     2025-09-06 ce970069@ucf.edu removed some comments and optimized the file for my own
         function- essentially 'cleaned' the file
+    2025-09-06 ce970069@ucf.edu tested several examples including int 8, 1d array [4,2,3], 3d
+        array [[4, 2, 3], [2, 9, 7], [1, 2, 3]], float 3.7, and complex square(3 + 4j). Added 
+        TypeError to raise when an input is not an int, float, complex, or np.ndarray. Verified 
+        the error for a string input.
     
     """
-    
 #main body of the function
+    
+    #raising errors if odd-inputs    
+    if type(x) not in (int, float, complex, np.ndarray):
+        raise TypeError("Input must be int, float, complex, or numpy.ndarray!")
+
+    #actual math of the function
     square = x * x
+        
     return square
     
