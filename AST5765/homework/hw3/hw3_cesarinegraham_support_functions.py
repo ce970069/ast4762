@@ -5,6 +5,7 @@ and the function will return its square.
 """
 #importing my needed libraries
 import numpy as np
+import matplotlib.pyplot as plt
 
 #square function
 def square(x) :
@@ -69,4 +70,62 @@ def square(x) :
     square = x * x
         
     return square
+
+
+
+#squareplot function
+def squareplot(low, high, points, saveplot = False) :
+    #this is our function's doc, string!
+    """ This function is to plot the squares of numbers over a specified range.
+    
+    Parameters
+    ----------
+    low : float
+        The starting value of the range.
+    high : float
+        The inclusive, ending value of the range.
+    points : int
+        The number of points to generate in the range.
+    saveplot : str or bool, optional
+        If a string (filename) is provided, the plot is saved as a PDF with that name.
+        If False (default), the plot is only displayed and not saved.
+
+    Returns
+    -------
+    Plot
+
+    Examples
+    --------
+    >>> squareplot(0, 5, 6)  
+    plot #upward facing curve
+
+    >>squareplot(0, 5, 6, saveplot="hw3_cesarinegraham_squareplot.pdf")  
+    plot, .pdf of plot
+           
+    Revisions
+    ---------
+    2025-09-05 ce970069@ucf.edu created squareplot
+    
+    """
+#main body of the function
+    
+  #creating array of evenly spaced points including the high end
+    x = np.linspace(low, high, points)
+    
+    # calling square to get y
+    y = square(x)
+    
+    # plotting x vs y
+    plt.figure()
+    plt.plot(x, y, marker='o')
+    plt.xlabel("Input")
+    plt.ylabel("Output")
+    plt.title("Square Function")
+    plt.grid(True)
+    
+    # saving plot (optional)
+    if saveplot:
+        plt.savefig(saveplot, format='pdf')
+    
+    plt.show()
     
