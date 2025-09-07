@@ -125,7 +125,7 @@ def squareplot(low, high, points, saveplot = False) :
     
     # saving plot (optional)
     if saveplot:
-        plt.savefig(saveplot, format='pdf')
+        plt.savefig(saveplot, format='pdf') #saves the plot as a pdf if declared to do so
     
     plt.show()
     
