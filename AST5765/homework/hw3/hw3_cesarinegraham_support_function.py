@@ -5,7 +5,6 @@ and the function will return its square.
 """
 #importing my needed libraries
 import numpy as np
-import matplotlib.pyplot as plt 
 
 #square function
 def square(x) :
@@ -16,13 +15,11 @@ def square(x) :
 
     Parameters
     ----------
-    x : int, float, complex, or numpy.ndarray
-        Input number or array.
+    x : Input as int, float, complex, or numpy.ndarray
 
     Returns
     -------
-    int, float, complex, or numpy.ndarray
-        The square of the input.
+    int, float, complex, or numpy.ndarray - the square of the input.
 
     Notes
     -----
@@ -30,23 +27,23 @@ def square(x) :
 
     Examples
     --------
-    >>> square(8)
+    >>> square(8) #int
     8
     
-    >>> a = np.array([4, 2, 3])
+    >>> a = np.array([4, 2, 3]) # 1D array
     >>> square(a)
     array([16,  4,  9])
     
-    >>> d = np.array([ [4, 2, 3], [2, 9, 7], [1, 2, 3] ])
+    >>> d = np.array([ [4, 2, 3], [2, 9, 7], [1, 2, 3] ]) #3D array
     >>> square(d)
     array([[16,  4,  9],
            [ 4, 81, 49],
            [ 1,  4,  9]])
            
-    >>> square(3.7)
+    >>> square(3.7) #float
     13.690000000000001
 
-    >>> square(3 + 4j)
+    >>> square(3 + 4j) #complex
     (-7+24j)
            
     Revisions
@@ -59,6 +56,7 @@ def square(x) :
         array [[4, 2, 3], [2, 9, 7], [1, 2, 3]], float 3.7, and complex square(3 + 4j). Added 
         TypeError to raise when an input is not an int, float, complex, or np.ndarray. Verified 
         the error for a string input.
+    2025-09-06 ce970069@ucf.edu added more comments, deleted unnecessary libraries.
     
     """
 #main body of the function
