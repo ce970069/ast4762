@@ -1,0 +1,345 @@
+Jul 26, 2025 12:55:56 PM com.install4j.shadow.com.formdev.flatlaf.util.LoggingFacadeImpl logSevere
+SEVERE: FlatLaf: Uninstalling indeterminate progress bar UI not on AWT thread may throw NPE in FlatProgressBarUI.paint(). Use SwingUtilities.invokeLater().
+java.lang.IllegalStateException
+	at com.install4j.shadow.com.formdev.flatlaf.ui.FlatProgressBarUI.uninstallUI(FlatProgressBarUI.java:93)
+	at javax.swing.JComponent.uninstallUIAndProperties(Unknown Source)
+	at javax.swing.JComponent.setUI(Unknown Source)
+	at javax.swing.JProgressBar.setUI(Unknown Source)
+	at javax.swing.JProgressBar.updateUI(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI(Unknown Source)
+	at com.install4j.runtime.installer.frontend.ScreenEnvelope.updateUI(ScreenEnvelope.java:386)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI(Unknown Source)
+	at com.ejt.internal.gui.LookAndFeelChangeUtil.fireChangeHandlers(LookAndFeelChangeUtil.java:39)
+	at com.ejt.internal.gui.LookAndFeelChangeUtil$1.propertyChange(LookAndFeelChangeUtil.java:23)
+	at java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at javax.swing.event.SwingPropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at javax.swing.UIManager.setLookAndFeel(Unknown Source)
+	at javax.swing.UIManager.setLookAndFeel(Unknown Source)
+	at edu.asu.jmars.ui.looknfeel.GUIState.configureUI(GUIState.java:44)
+	at edu.asu.jmars.Main.main(Main.java:1941)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:81)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:31)
+
+2025-07-26 12:56:00.024 Main.main	UI theme is in dark mode.2025-07-26 12:56:00.025 Main.main	
+2025-07-26 12:56:05.848 Util.launchBrowser	https://jmars.mars.asu.edu/user/register2025-07-26 12:56:05.848 Util.launchBrowser	
+2025-07-26 12:59:22.109 Main.startupInCyl	You're using the CYLINDRICAL projection.2025-07-26 12:59:22.109 Main.startupInCyl	
+2025-07-26 12:59:24.823 Scene.Scene	Number of 3D fitting threads 42025-07-26 12:59:24.823 Scene.Scene	
+2025-07-26 12:59:24.832 Main.initializeJMARSGUI	=======================New Login Sat Jul 26 12:59:24 EDT 2025===============================2025-07-26 12:59:24.832 Main.initializeJMARSGUI	
+2025-08-25 21:17:55.156 Main.main	UI theme is in dark mode.2025-08-25 21:17:55.157 Main.main	
+2025-08-31 15:34:13.335 Main.main	UI theme is in dark mode.2025-08-31 15:34:13.336 Main.main	
+2025-08-31 15:35:12.988 Main.startupInCyl	You're using the CYLINDRICAL projection.2025-08-31 15:35:12.988 Main.startupInCyl	
+2025-08-31 15:35:17.410 Scene.Scene	Number of 3D fitting threads 42025-08-31 15:35:17.410 Scene.Scene	
+2025-08-31 15:35:17.418 Main.initializeJMARSGUI	=======================New Login Sun Aug 31 15:35:17 EDT 2025===============================2025-08-31 15:35:17.418 Main.initializeJMARSGUI	
+2025-09-02 11:41:58.014 Main.main	UI theme is in dark mode.2025-09-02 11:41:58.016 Main.main	
+2025-09-02 11:47:05.057 Main.startupInCyl	You're using the CYLINDRICAL projection.2025-09-02 11:47:05.060 Main.startupInCyl	
+2025-09-02 11:47:09.001 Scene.Scene	Number of 3D fitting threads 42025-09-02 11:47:09.001 Scene.Scene	
+2025-09-02 11:47:09.022 Main.initializeJMARSGUI	=======================New Login Tue Sep 02 11:47:09 EDT 2025===============================2025-09-02 11:47:09.022 Main.initializeJMARSGUI	
+2025-09-02 11:53:15.259 Main.main	UI theme is in dark mode.2025-09-02 11:53:15.259 Main.main	
+2025-09-02 11:53:24.746 Main.startupInCyl	You're using the CYLINDRICAL projection.2025-09-02 11:53:24.747 Main.startupInCyl	
+2025-09-02 11:53:28.499 Scene.Scene	Number of 3D fitting threads 42025-09-02 11:53:28.499 Scene.Scene	
+2025-09-02 11:53:28.832 ShapeModelBackendInterface.getShapeModelList	String index out of range: -12025-09-02 11:53:28.834 ShapeModelBackendInterface.getShapeModelList	
+2025-09-02 11:53:28.856 Main.initializeJMARSGUI	=======================New Login Tue Sep 02 11:53:28 EDT 2025===============================2025-09-02 11:53:28.856 Main.initializeJMARSGUI	
+2025-09-02 11:53:28.856 Main.initializeJMARSGUI	Running JMARS version: 5.6.1.12025-09-02 11:53:28.856 Main.initializeJMARSGUI	
+2025-09-02 11:53:45.466 TriangleMesh.calcMinMaxAvgMagnitudes	Max mesh mag 0.999999172025-09-02 11:53:45.466 TriangleMesh.calcMinMaxAvgMagnitudes	
+2025-09-02 11:53:45.579 TriangleMesh.realizeOcttree	Octtree load time: 0.1062025-09-02 11:53:45.579 TriangleMesh.realizeOcttree	
+2025-09-02 11:53:45.579 TriangleMesh.realizeOcttree	Number of plates actually loaded: 655362025-09-02 11:53:45.579 TriangleMesh.realizeOcttree	
+2025-09-02 11:53:45.594 TriangleMesh.realizeOcttree	Number of nodes: 347052025-09-02 11:53:45.594 TriangleMesh.realizeOcttree	
+2025-09-02 11:53:45.594 OctTree.printDepthTotals	Oct Tree Depth Totals:2025-09-02 11:53:45.594 OctTree.printDepthTotals	
+2025-09-02 11:53:45.594 OctTree.printDepthTotals	ct[6] = 32642025-09-02 11:53:45.594 OctTree.printDepthTotals	
+2025-09-02 11:53:45.594 OctTree.printDepthTotals	ct[7] = 500162025-09-02 11:53:45.594 OctTree.printDepthTotals	
+2025-09-02 11:53:45.594 OctTree.printDepthTotals	ct[8] = 122562025-09-02 11:53:45.594 OctTree.printDepthTotals	
+2025-09-02 11:53:45.600 GlobalDecalFactory.buildGlobalExtent	Building Global Extent.2025-09-02 11:53:45.600 GlobalDecalFactory.buildGlobalExtent	
+2025-09-02 11:53:45.603 TerrainGrid.TerrainGrid	Constructing the TerrainGrid.2025-09-02 11:53:45.603 TerrainGrid.TerrainGrid	
+2025-09-02 11:53:45.616 GlobalDecalFactory.buildGlobalExtent	Starting Decal geometry construction.2025-09-02 11:53:45.616 GlobalDecalFactory.buildGlobalExtent	
+2025-09-02 11:53:45.616 GlobalDecalFactory.buildGlobalExtent	Total tiles: 1362025-09-02 11:53:45.618 GlobalDecalFactory.buildGlobalExtent	
+2025-09-02 11:53:47.047 GlobalDecalFactory.mapTilesToGeometry	Starting Tile mapping to geometry.2025-09-02 11:53:47.047 GlobalDecalFactory.mapTilesToGeometry	
+2025-09-02 11:53:47.445 GlobalDecalFactory.mapTilesToGeometry	Discarding 33 empty tiles.2025-09-02 11:53:47.445 GlobalDecalFactory.mapTilesToGeometry	
+2025-09-07 00:17:31.687 Main.main	UI theme is in dark mode.2025-09-07 00:17:31.695 Main.main	
+2025-09-07 15:21:30.544 Main.main	UI theme is in dark mode.2025-09-07 15:21:30.544 Main.main	
+2025-09-08 21:32:00.830 Main.main	UI theme is in dark mode.2025-09-08 21:32:00.830 Main.main	
+2025-09-08 21:32:10.892 Main.startupInCyl	You're using the CYLINDRICAL projection.2025-09-08 21:32:10.895 Main.startupInCyl	
+2025-09-08 21:32:11.410 Main.authenticateUser	There was a problem validating the username and/or password.2025-09-08 21:32:11.410 Main.authenticateUser	
+2025-09-08 21:32:24.153 Main.startupInCyl	You're using the CYLINDRICAL projection.2025-09-08 21:32:24.155 Main.startupInCyl	
+2025-09-08 21:32:28.379 Scene.Scene	Number of 3D fitting threads 42025-09-08 21:32:28.381 Scene.Scene	
+2025-09-08 21:32:28.780 ShapeModelBackendInterface.getShapeModelList	String index out of range: -12025-09-08 21:32:28.780 ShapeModelBackendInterface.getShapeModelList	
+2025-09-08 21:32:28.798 Main.initializeJMARSGUI	=======================New Login Mon Sep 08 21:32:28 EDT 2025===============================2025-09-08 21:32:28.798 Main.initializeJMARSGUI	
+2025-09-08 21:32:28.798 Main.initializeJMARSGUI	Running JMARS version: 5.6.1.12025-09-08 21:32:28.798 Main.initializeJMARSGUI	
+2025-09-08 21:32:44.081 TriangleMesh.calcMinMaxAvgMagnitudes	Max mesh mag 0.999999172025-09-08 21:32:44.081 TriangleMesh.calcMinMaxAvgMagnitudes	
+2025-09-08 21:32:44.248 TriangleMesh.realizeOcttree	Octtree load time: 0.152025-09-08 21:32:44.248 TriangleMesh.realizeOcttree	
+2025-09-08 21:32:44.257 TriangleMesh.realizeOcttree	Number of plates actually loaded: 655362025-09-08 21:32:44.257 TriangleMesh.realizeOcttree	
+2025-09-08 21:32:44.267 TriangleMesh.realizeOcttree	Number of nodes: 347052025-09-08 21:32:44.267 TriangleMesh.realizeOcttree	
+2025-09-08 21:32:44.267 OctTree.printDepthTotals	Oct Tree Depth Totals:2025-09-08 21:32:44.268 OctTree.printDepthTotals	
+2025-09-08 21:32:44.268 OctTree.printDepthTotals	ct[6] = 32642025-09-08 21:32:44.268 OctTree.printDepthTotals	
+2025-09-08 21:32:44.268 OctTree.printDepthTotals	ct[7] = 500162025-09-08 21:32:44.268 OctTree.printDepthTotals	
+2025-09-08 21:32:44.268 OctTree.printDepthTotals	ct[8] = 122562025-09-08 21:32:44.268 OctTree.printDepthTotals	
+2025-09-08 21:32:44.274 GlobalDecalFactory.buildGlobalExtent	Building Global Extent.2025-09-08 21:32:44.274 GlobalDecalFactory.buildGlobalExtent	
+2025-09-08 21:32:44.276 TerrainGrid.TerrainGrid	Constructing the TerrainGrid.2025-09-08 21:32:44.276 TerrainGrid.TerrainGrid	
+2025-09-08 21:32:44.291 GlobalDecalFactory.buildGlobalExtent	Starting Decal geometry construction.2025-09-08 21:32:44.291 GlobalDecalFactory.buildGlobalExtent	
+2025-09-08 21:32:44.291 GlobalDecalFactory.buildGlobalExtent	Total tiles: 1362025-09-08 21:32:44.297 GlobalDecalFactory.buildGlobalExtent	
+2025-09-08 21:32:46.319 GlobalDecalFactory.mapTilesToGeometry	Starting Tile mapping to geometry.2025-09-08 21:32:46.319 GlobalDecalFactory.mapTilesToGeometry	
+2025-09-08 21:32:46.772 GlobalDecalFactory.mapTilesToGeometry	Discarding 33 empty tiles.2025-09-08 21:32:46.772 GlobalDecalFactory.mapTilesToGeometry	
+Sep 11, 2025 12:42:01 PM com.install4j.shadow.com.formdev.flatlaf.util.LoggingFacadeImpl logSevere
+SEVERE: FlatLaf: Uninstalling indeterminate progress bar UI not on AWT thread may throw NPE in FlatProgressBarUI.paint(). Use SwingUtilities.invokeLater().
+java.lang.IllegalStateException
+	at com.install4j.shadow.com.formdev.flatlaf.ui.FlatProgressBarUI.uninstallUI(FlatProgressBarUI.java:93)
+	at javax.swing.JComponent.uninstallUIAndProperties(Unknown Source)
+	at javax.swing.JComponent.setUI(Unknown Source)
+	at javax.swing.JProgressBar.setUI(Unknown Source)
+	at javax.swing.JProgressBar.updateUI(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI(Unknown Source)
+	at com.install4j.runtime.installer.frontend.ScreenEnvelope.updateUI(ScreenEnvelope.java:386)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI0(Unknown Source)
+	at javax.swing.SwingUtilities.updateComponentTreeUI(Unknown Source)
+	at com.ejt.internal.gui.LookAndFeelChangeUtil.fireChangeHandlers(LookAndFeelChangeUtil.java:39)
+	at com.ejt.internal.gui.LookAndFeelChangeUtil$1.propertyChange(LookAndFeelChangeUtil.java:23)
+	at java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at javax.swing.event.SwingPropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at javax.swing.UIManager.setLookAndFeel(Unknown Source)
+	at javax.swing.UIManager.setLookAndFeel(Unknown Source)
+	at edu.asu.jmars.ui.looknfeel.GUIState.configureUI(GUIState.java:44)
+	at edu.asu.jmars.Main.main(Main.java:1942)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:81)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:31)
+
+2025-09-11 12:42:05.278 Main.main	UI theme is in dark mode.2025-09-11 12:42:05.278 Main.main	
+2025-09-11 12:42:17.793 Main.startupInCyl	You're using the CYLINDRICAL projection.2025-09-11 12:42:17.793 Main.startupInCyl	
+2025-09-11 12:42:20.678 Scene.Scene	Number of 3D fitting threads 42025-09-11 12:42:20.678 Scene.Scene	
+2025-09-11 12:42:20.977 ShapeModelBackendInterface.getShapeModelList	String index out of range: -12025-09-11 12:42:20.977 ShapeModelBackendInterface.getShapeModelList	
+2025-09-11 12:42:20.991 Main.initializeJMARSGUI	=======================New Login Thu Sep 11 12:42:20 EDT 2025===============================2025-09-11 12:42:20.992 Main.initializeJMARSGUI	
+2025-09-11 12:42:20.992 Main.initializeJMARSGUI	Running JMARS version: 5.6.1.12025-09-11 12:42:20.992 Main.initializeJMARSGUI	
+2025-09-11 12:42:30.363 TriangleMesh.calcMinMaxAvgMagnitudes	Max mesh mag 0.999999172025-09-11 12:42:30.364 TriangleMesh.calcMinMaxAvgMagnitudes	
+2025-09-11 12:42:30.429 TriangleMesh.realizeOcttree	Octtree load time: 0.062025-09-11 12:42:30.429 TriangleMesh.realizeOcttree	
+2025-09-11 12:42:30.429 TriangleMesh.realizeOcttree	Number of plates actually loaded: 655362025-09-11 12:42:30.429 TriangleMesh.realizeOcttree	
+2025-09-11 12:42:30.434 TriangleMesh.realizeOcttree	Number of nodes: 347052025-09-11 12:42:30.434 TriangleMesh.realizeOcttree	
+2025-09-11 12:42:30.434 OctTree.printDepthTotals	Oct Tree Depth Totals:2025-09-11 12:42:30.434 OctTree.printDepthTotals	
+2025-09-11 12:42:30.434 OctTree.printDepthTotals	ct[6] = 32642025-09-11 12:42:30.434 OctTree.printDepthTotals	
+2025-09-11 12:42:30.434 OctTree.printDepthTotals	ct[7] = 500162025-09-11 12:42:30.434 OctTree.printDepthTotals	
+2025-09-11 12:42:30.434 OctTree.printDepthTotals	ct[8] = 122562025-09-11 12:42:30.434 OctTree.printDepthTotals	
+2025-09-11 12:42:30.437 GlobalDecalFactory.buildGlobalExtent	Building Global Extent.2025-09-11 12:42:30.437 GlobalDecalFactory.buildGlobalExtent	
+2025-09-11 12:42:30.439 TerrainGrid.TerrainGrid	Constructing the TerrainGrid.2025-09-11 12:42:30.439 TerrainGrid.TerrainGrid	
+2025-09-11 12:42:30.448 GlobalDecalFactory.buildGlobalExtent	Starting Decal geometry construction.2025-09-11 12:42:30.448 GlobalDecalFactory.buildGlobalExtent	
+2025-09-11 12:42:30.448 GlobalDecalFactory.buildGlobalExtent	Total tiles: 1362025-09-11 12:42:30.448 GlobalDecalFactory.buildGlobalExtent	
+2025-09-11 12:42:31.589 GlobalDecalFactory.mapTilesToGeometry	Starting Tile mapping to geometry.2025-09-11 12:42:31.589 GlobalDecalFactory.mapTilesToGeometry	
+2025-09-11 12:42:31.834 GlobalDecalFactory.mapTilesToGeometry	Discarding 33 empty tiles.2025-09-11 12:42:31.834 GlobalDecalFactory.mapTilesToGeometry	
+2025-09-11 13:45:02.756 Main.main	UI theme is in dark mode.2025-09-11 13:45:02.756 Main.main	
+2025-09-11 13:45:27.014 Main.startupInCyl	You're using the CYLINDRICAL projection.2025-09-11 13:45:27.014 Main.startupInCyl	
+2025-09-11 13:45:29.715 Scene.Scene	Number of 3D fitting threads 42025-09-11 13:45:29.715 Scene.Scene	
+2025-09-11 13:45:30.014 ShapeModelBackendInterface.getShapeModelList	String index out of range: -12025-09-11 13:45:30.014 ShapeModelBackendInterface.getShapeModelList	
+2025-09-11 13:45:30.020 Main.initializeJMARSGUI	=======================New Login Thu Sep 11 13:45:30 EDT 2025===============================2025-09-11 13:45:30.021 Main.initializeJMARSGUI	
+2025-09-11 13:45:30.021 Main.initializeJMARSGUI	Running JMARS version: 5.6.1.12025-09-11 13:45:30.021 Main.initializeJMARSGUI	
+2025-09-11 13:45:34.216 TriangleMesh.calcMinMaxAvgMagnitudes	Max mesh mag 0.999999172025-09-11 13:45:34.217 TriangleMesh.calcMinMaxAvgMagnitudes	
+2025-09-11 13:45:34.333 TriangleMesh.realizeOcttree	Octtree load time: 0.1082025-09-11 13:45:34.333 TriangleMesh.realizeOcttree	
+2025-09-11 13:45:34.333 TriangleMesh.realizeOcttree	Number of plates actually loaded: 655362025-09-11 13:45:34.333 TriangleMesh.realizeOcttree	
+2025-09-11 13:45:34.341 TriangleMesh.realizeOcttree	Number of nodes: 347052025-09-11 13:45:34.341 TriangleMesh.realizeOcttree	
+2025-09-11 13:45:34.341 OctTree.printDepthTotals	Oct Tree Depth Totals:2025-09-11 13:45:34.341 OctTree.printDepthTotals	
+2025-09-11 13:45:34.341 OctTree.printDepthTotals	ct[6] = 32642025-09-11 13:45:34.341 OctTree.printDepthTotals	
+2025-09-11 13:45:34.342 OctTree.printDepthTotals	ct[7] = 500162025-09-11 13:45:34.342 OctTree.printDepthTotals	
+2025-09-11 13:45:34.342 OctTree.printDepthTotals	ct[8] = 122562025-09-11 13:45:34.342 OctTree.printDepthTotals	
+2025-09-11 13:45:34.347 GlobalDecalFactory.buildGlobalExtent	Building Global Extent.2025-09-11 13:45:34.347 GlobalDecalFactory.buildGlobalExtent	
+2025-09-11 13:45:34.350 TerrainGrid.TerrainGrid	Constructing the TerrainGrid.2025-09-11 13:45:34.350 TerrainGrid.TerrainGrid	
+2025-09-11 13:45:34.366 GlobalDecalFactory.buildGlobalExtent	Starting Decal geometry construction.2025-09-11 13:45:34.366 GlobalDecalFactory.buildGlobalExtent	
+2025-09-11 13:45:34.366 GlobalDecalFactory.buildGlobalExtent	Total tiles: 1362025-09-11 13:45:34.366 GlobalDecalFactory.buildGlobalExtent	
+2025-09-11 13:45:36.070 GlobalDecalFactory.mapTilesToGeometry	Starting Tile mapping to geometry.2025-09-11 13:45:36.070 GlobalDecalFactory.mapTilesToGeometry	
+2025-09-11 13:45:36.524 GlobalDecalFactory.mapTilesToGeometry	Discarding 33 empty tiles.2025-09-11 13:45:36.524 GlobalDecalFactory.mapTilesToGeometry	
+java.lang.NullPointerException
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeONESOURCE(ProfileLView.java:1154)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeBothConfig(ProfileLView.java:1149)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1142)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1106)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams$Builder.build(ProfileLView.java:1322)
+	at edu.asu.jmars.layer.profile.ProfileLView.getInitialLayerData(ProfileLView.java:1103)
+	at edu.asu.jmars.layer.SavedLayer.<init>(SavedLayer.java:59)
+	at edu.asu.jmars.Main$4.run(Main.java:1320)
+	at edu.asu.jmars.Main.saveLayers(Main.java:1332)
+	at edu.asu.jmars.Main.autosave(Main.java:1294)
+	at edu.asu.jmars.Main.access$300(Main.java:181)
+	at edu.asu.jmars.Main$3.run(Main.java:1249)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+java.lang.NullPointerException
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeONESOURCE(ProfileLView.java:1154)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeBothConfig(ProfileLView.java:1149)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1142)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1106)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams$Builder.build(ProfileLView.java:1322)
+	at edu.asu.jmars.layer.profile.ProfileLView.getInitialLayerData(ProfileLView.java:1103)
+	at edu.asu.jmars.layer.SavedLayer.<init>(SavedLayer.java:59)
+	at edu.asu.jmars.Main$4.run(Main.java:1320)
+	at edu.asu.jmars.Main.saveLayers(Main.java:1332)
+	at edu.asu.jmars.Main.autosave(Main.java:1294)
+	at edu.asu.jmars.Main.access$300(Main.java:181)
+	at edu.asu.jmars.Main$3.run(Main.java:1249)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+java.lang.NullPointerException
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeONESOURCE(ProfileLView.java:1154)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeBothConfig(ProfileLView.java:1149)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1142)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1106)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams$Builder.build(ProfileLView.java:1322)
+	at edu.asu.jmars.layer.profile.ProfileLView.getInitialLayerData(ProfileLView.java:1103)
+	at edu.asu.jmars.layer.SavedLayer.<init>(SavedLayer.java:59)
+	at edu.asu.jmars.Main$4.run(Main.java:1320)
+	at edu.asu.jmars.Main.saveLayers(Main.java:1332)
+	at edu.asu.jmars.Main.autosave(Main.java:1294)
+	at edu.asu.jmars.Main.access$300(Main.java:181)
+	at edu.asu.jmars.Main$3.run(Main.java:1249)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+java.lang.NullPointerException
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeONESOURCE(ProfileLView.java:1154)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeBothConfig(ProfileLView.java:1149)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1142)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1106)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams$Builder.build(ProfileLView.java:1322)
+	at edu.asu.jmars.layer.profile.ProfileLView.getInitialLayerData(ProfileLView.java:1103)
+	at edu.asu.jmars.layer.SavedLayer.<init>(SavedLayer.java:59)
+	at edu.asu.jmars.Main$4.run(Main.java:1320)
+	at edu.asu.jmars.Main.saveLayers(Main.java:1332)
+	at edu.asu.jmars.Main.autosave(Main.java:1294)
+	at edu.asu.jmars.Main.access$300(Main.java:181)
+	at edu.asu.jmars.Main$3.run(Main.java:1249)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2025-09-11 16:45:56.455 JmarsHttpRequest.send	An Exception was thrown for URL: https://jmars.mars.asu.edu/services/about.php?product=jmars&domain=msff2025-09-11 16:45:56.455 JmarsHttpRequest.send	
+2025-09-11 16:45:56.456 JmarsHttpRequest.send	JmarsHttpRequest: Connection refused by server: java.net.UnknownHostException: jmars.mars.asu.edu2025-09-11 16:45:56.456 JmarsHttpRequest.send	
+2025-09-11 17:00:35.371 JmarsHttpRequest.setDisconnectedStatus	Failed request. Entering failed connection mode. Reconnect will happen as soon as possible.2025-09-11 17:00:35.371 JmarsHttpRequest.setDisconnectedStatus	
+java.net.UnknownHostException: jmars.mars.asu.edu
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at edu.asu.jmars.util.JmarsHttpRequest.send(JmarsHttpRequest.java:346)
+	at edu.asu.jmars.Main.getServerAbout(Main.java:745)
+	at edu.asu.jmars.Main.authenticateUser(Main.java:690)
+	at edu.asu.jmars.Main.access$100(Main.java:181)
+	at edu.asu.jmars.Main$2.run(Main.java:1220)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2025-09-11 17:00:35.376 Main.authenticateUser	There was a problem validating the username and/or password.2025-09-11 17:00:35.376 Main.authenticateUser	
+java.lang.NullPointerException
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeONESOURCE(ProfileLView.java:1154)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeBothConfig(ProfileLView.java:1149)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1142)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1106)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams$Builder.build(ProfileLView.java:1322)
+	at edu.asu.jmars.layer.profile.ProfileLView.getInitialLayerData(ProfileLView.java:1103)
+	at edu.asu.jmars.layer.SavedLayer.<init>(SavedLayer.java:59)
+	at edu.asu.jmars.Main$4.run(Main.java:1320)
+	at edu.asu.jmars.Main.saveLayers(Main.java:1332)
+	at edu.asu.jmars.Main.autosave(Main.java:1294)
+	at edu.asu.jmars.Main.access$300(Main.java:181)
+	at edu.asu.jmars.Main$3.run(Main.java:1249)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+java.lang.NullPointerException
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeONESOURCE(ProfileLView.java:1154)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.serializeBothConfig(ProfileLView.java:1149)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1142)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams.<init>(ProfileLView.java:1106)
+	at edu.asu.jmars.layer.profile.ProfileLView$SavedParams$Builder.build(ProfileLView.java:1322)
+	at edu.asu.jmars.layer.profile.ProfileLView.getInitialLayerData(ProfileLView.java:1103)
+	at edu.asu.jmars.layer.SavedLayer.<init>(SavedLayer.java:59)
+	at edu.asu.jmars.Main$4.run(Main.java:1320)
+	at edu.asu.jmars.Main.saveLayers(Main.java:1332)
+	at edu.asu.jmars.Main.autosave(Main.java:1294)
+	at edu.asu.jmars.Main.processWindowEvent(Main.java:933)
+	at java.awt.Window.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at edu.asu.jmars.swing.PopupEventQueue.dispatchEvent(PopupEventQueue.java:42)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2025-09-12 11:24:54.606 Main.main	UI theme is in dark mode.2025-09-12 11:24:54.606 Main.main	
+2025-09-12 11:25:12.865 Main.startupInCyl	You're using the CYLINDRICAL projection.2025-09-12 11:25:12.865 Main.startupInCyl	
+2025-09-12 11:25:15.763 Scene.Scene	Number of 3D fitting threads 42025-09-12 11:25:15.763 Scene.Scene	
+2025-09-12 11:25:16.085 ShapeModelBackendInterface.getShapeModelList	String index out of range: -12025-09-12 11:25:16.085 ShapeModelBackendInterface.getShapeModelList	
+2025-09-12 11:25:16.094 Main.initializeJMARSGUI	=======================New Login Fri Sep 12 11:25:16 EDT 2025===============================2025-09-12 11:25:16.094 Main.initializeJMARSGUI	
+2025-09-12 11:25:16.094 Main.initializeJMARSGUI	Running JMARS version: 5.6.1.12025-09-12 11:25:16.094 Main.initializeJMARSGUI	
+2025-09-12 11:25:27.725 TriangleMesh.calcMinMaxAvgMagnitudes	Max mesh mag 0.999999172025-09-12 11:25:27.725 TriangleMesh.calcMinMaxAvgMagnitudes	
+2025-09-12 11:25:27.820 TriangleMesh.realizeOcttree	Octtree load time: 0.0882025-09-12 11:25:27.820 TriangleMesh.realizeOcttree	
+2025-09-12 11:25:27.821 TriangleMesh.realizeOcttree	Number of plates actually loaded: 655362025-09-12 11:25:27.821 TriangleMesh.realizeOcttree	
+2025-09-12 11:25:27.828 TriangleMesh.realizeOcttree	Number of nodes: 347052025-09-12 11:25:27.828 TriangleMesh.realizeOcttree	
+2025-09-12 11:25:27.829 OctTree.printDepthTotals	Oct Tree Depth Totals:2025-09-12 11:25:27.829 OctTree.printDepthTotals	
+2025-09-12 11:25:27.829 OctTree.printDepthTotals	ct[6] = 32642025-09-12 11:25:27.829 OctTree.printDepthTotals	
+2025-09-12 11:25:27.829 OctTree.printDepthTotals	ct[7] = 500162025-09-12 11:25:27.829 OctTree.printDepthTotals	
+2025-09-12 11:25:27.829 OctTree.printDepthTotals	ct[8] = 122562025-09-12 11:25:27.829 OctTree.printDepthTotals	
+2025-09-12 11:25:27.833 GlobalDecalFactory.buildGlobalExtent	Building Global Extent.2025-09-12 11:25:27.833 GlobalDecalFactory.buildGlobalExtent	
+2025-09-12 11:25:27.836 TerrainGrid.TerrainGrid	Constructing the TerrainGrid.2025-09-12 11:25:27.837 TerrainGrid.TerrainGrid	
+2025-09-12 11:25:27.848 GlobalDecalFactory.buildGlobalExtent	Starting Decal geometry construction.2025-09-12 11:25:27.848 GlobalDecalFactory.buildGlobalExtent	
+2025-09-12 11:25:27.848 GlobalDecalFactory.buildGlobalExtent	Total tiles: 1362025-09-12 11:25:27.848 GlobalDecalFactory.buildGlobalExtent	
+2025-09-12 11:25:30.310 GlobalDecalFactory.mapTilesToGeometry	Starting Tile mapping to geometry.2025-09-12 11:25:30.310 GlobalDecalFactory.mapTilesToGeometry	
+2025-09-12 11:25:30.734 GlobalDecalFactory.mapTilesToGeometry	Discarding 33 empty tiles.2025-09-12 11:25:30.735 GlobalDecalFactory.mapTilesToGeometry	
+2025-09-12 11:48:50.975 Main.main	UI theme is in dark mode.2025-09-12 11:48:50.975 Main.main	
